@@ -13,7 +13,7 @@ import com.jolbox.bonecp.BoneCPDataSource;
 @Configuration
 @EnableTransactionManagement
 public class JdbcConfiguration {
-
+	
 	@Bean(destroyMethod = "close")
 	public DataSource dataSource() {
 

@@ -36,7 +36,7 @@ public class LogInvocation {
 
 		long total = after - before;
 
-		System.out.println("durée d'exécution : " + total);
+		System.out.println("duree d'execution : " + total);
 		return retVal;
 	}
 }
